@@ -6,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Employee Payroll Form</title>
-    <link rel="stylesheet" href="../css/form.css">
+    <link rel="stylesheet" href="../css/payroll-form.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600&display=swap">
-    <script type="text/JavaScript" src="../js/FromValidation.js"></script>
+    <script type="text/JavaScript" src="../js/payroll_form.js"></script>
     <script type="text/JavaScript" src="../js/EmployeePayrollData.js"></script>
 </head>
 
@@ -16,7 +16,7 @@
     <!-- UC1 Header with logo-->
     <header class="header-content header">
         <div class="logo-content">
-            <img src="../Assests/images/logo.png" alt="logo">
+            <img src="../assets/images/logo.png" alt="logo">
             <div>
                 <span class="emp-text">Employee</span>
                 <span class="emp-text emp-payroll">PAYROLL</span>
@@ -25,7 +25,7 @@
     </header>
     <!-- UC2 Form with header and name-->
     <div class="form-content">
-        <form class="form" action="#" onsubmit="save();return false">
+        <form class="form" action="#" onreset="resetForm()" onsubmit="save();return false">
             <div class="form-head">
                 Employee Payroll form
             </div>
@@ -41,22 +41,22 @@
                     <label>
                         <input type="radio" id="profile1" name="profile" value="../assets/profile-images/Ellipse -3.png"
                             required>
-                        <img class="profile" id="image1" src="../Assests/profile-images/Ellipse -3.png">
+                        <img class="profile" id="image1" src="../assets/profile-images/Ellipse -3.png">
                     </label>
                     <label>
                         <input type="radio" id="profile2" name="profile" value="../assets/profile-images/Ellipse 1.png"
                             required>
-                        <img class="profile" id="image2" src="../Assests/profile-images/Ellipse 1.png">
+                        <img class="profile" id="image2" src="../assets/profile-images/Ellipse 1.png">
                     </label>
                     <label>
                         <input type="radio" id="profile3" name="profile" value="../assets/profile-images/Ellipse -8.png"
                             required>
-                        <img class="profile" id="image3" src="../Assests/profile-images/Ellipse -8.png">
+                        <img class="profile" id="image3" src="../assets/profile-images/Ellipse -8.png">
                     </label>
                     <label>
                         <input type="radio" id="profile4" name="profile" value="../assets/profile-images/Ellipse -7.png"
                             required>
-                        <img class="profile" id="image4" src="../Assests/profile-images/Ellipse -7.png">
+                        <img class="profile" id="image4" src="../assets/profile-images/Ellipse -7.png">
                     </label>
                 </div>
             </div>
